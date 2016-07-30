@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6416e895037c80c80b3ec80610e2c976d491887a">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0be5b04f8941950fa19356c22a9e3c8b9645036c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.2.1_848e64a4834759a58f3d039cd2bfdefc4792c8db/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_2b29aa3653785b97bf23231897ca089b576b62e1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.2.1_afc1f62b52bd2e3136b5de63421a8a8e171432bd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_eb08cd80b5b1e42fd4d03850ed2312d5122b41cd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_5bed3ab379b65478ae0da361da80e1d77ef009f2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="36e2b438f9b0d68fb2482c8f389e249e32840cff">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.2.1_d8e03c1cd8cba4aa1c365a8a9cf049c8f066963d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_b261907d19314d1f9315dfb28ed15cf5ad4ec823/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7cb8f70e66bdc25ee66ab8351a4e7214b6517aa8">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.14.0_98f0152c8299a008776da60bd84172687990146b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.2.1_a7070d2f448059e0cf200b499c1aba76ae3eac01/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.2.1_20ab5877c0a0b460f5c5ea340f5971b515d32087/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.2.1_d394c6bb240369824a7d8b72eb15a9df5c8ae28d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ee19e33a798d11a5cf309a40155b8223fadcdeea">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.2.1_c5dc1b2d310b2a7c70e1b3c33f0b0a90194ada8c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.2.1_26b6d0e1ea380bdca6502b0b735a32864afd92e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_9759a23395c6b8d32576c011f365abc74e2cea68/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_710da63c4100ddc84cad8330297de4ec3f0258e6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_cce4c7c3dd70b8ef01a0381b6462520e03c3eac2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.2.1_2bb65f9e7536c47c29f72a9f40830c6cac194164/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_e4f0ebf859efcbaf680ed2fe2b8dac4a89f2f6b1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_ab09e41639c953b7c06f500f4fd79f8e8381c2ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_5cf3e384384ac2f5cfa6d01050184b2b650ab863/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_20a14b442ba6eb30c847b33bf94563b57df6b2e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.4.0_c9bc662d16aaa8347dcbd9998f0c23372fd7412f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_05a73c20cf298023fe8669f2bc7d5e29a089d630/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.2.1_8bd12a112c8b9d52204c7dc83d7b3b451dc901af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e719de687ac45141de3dd613907860a495580af0">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.2.1_ca8a21c3619dd8281439b3f30a807e043f86e949/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_1eabcf3709e3d5f028e5bb49510d3b10e12ccaba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_d12201a6f98ef2e4d51e3d2f139b1b7115a1b72f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="684a7b774ff4a323b83cbc852a7d94b1d567934c">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e947624154efece3f5d37a61e1fc363e9dd91e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.2.1_a01e30b7576435bcd35ccdb67ebe2f47c136fad9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.2.1_15cfc4e048de4dbd7e1546ffa2c923424b6240dc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_5e8c9ddc0d732db1bfe427bebb6b54bf446d1839/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_1898cd27d5dbef1b7393ecf8b8df50bf66c2c967/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_a7dfddf14c292b6414a59a3ec77bcfa79ed818dd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_5ee1b39388d015e56350126709c7f583d9b0869e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_cf046cddbc84cd3556589cffdabea6f5e2781051/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.2.1_522325d2ae1a2a2ff35c7a9ddd62b2e4c45f1b57/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/Victor/Downloads/BoundTestApp/bound-test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_9175e28a9b5476b8e99059879976ddd4a8d4b9d6/classes.dex" />
+    </item>
+
+</items>
