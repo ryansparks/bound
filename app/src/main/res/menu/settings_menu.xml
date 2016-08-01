@@ -3,6 +3,8 @@
 
     <item android:title="Settings"
         android:id="@+id/settings"/>
+    <item android:title="About Bound"
+        android:id="@+id/about" />
     <item android:title="Log Out"
         android:id="@+id/logout"/>
 

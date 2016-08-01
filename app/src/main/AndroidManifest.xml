@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity"
+        <activity
+            android:name=".StartActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,35 +19,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SigninActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CreateaccountActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SigninActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateaccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name=".FriendsActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MeetingInfoActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".PayPalActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".SettingActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".DateTimeLocationPriceActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CurrentMeetupsActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".AboutBoundActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ChangeCardActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ForgotPasswordActivity"
-            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".FriendsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PayPalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutBoundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AddMetupActivity"></activity>
     </application>
 
 </manifest>
