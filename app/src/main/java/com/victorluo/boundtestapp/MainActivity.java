@@ -13,9 +13,10 @@ import android.widget.ImageView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     ImageView boundlogo;
+    Button createMeetup;
 
     FirebaseAuth mAuth;
 
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         boundlogo = (ImageView) findViewById(R.id.boundlogo);
+        createMeetup = (Button) findViewById(R.id.schedule);
+
+        createMeetup.setOnClickListener(this);
 
         boundlogo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +55,16 @@ public class MainActivity extends AppCompatActivity {
                 popup.show();
             }
         });
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.schedule:
+                Intent i = new Intent(MainActivity.this, AddMetupActivity.class);
+                startActivity(i);
+                break;
+        }
     }
 
     //test comment
