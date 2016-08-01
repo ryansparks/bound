@@ -83,7 +83,6 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
     @Override
     public void onClick(View view) {
         Log.d("Test", "button clicked");
-        finish();
 
         switch(view.getId())
         {
