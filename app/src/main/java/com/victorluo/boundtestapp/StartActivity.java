@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.firebase.client.Firebase;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class StartActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,7 +21,11 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_start);
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signOut();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if(user != null) {
+            Intent i = new Intent(StartActivity.this, MainActivity.class);
+            startActivity(i);
+        }
 
         // ASSIGN LAYOUT VALUES TO BUTTONS AND TEXT VIEWS
         createAccount = (Button) findViewById(R.id.createaccount);
