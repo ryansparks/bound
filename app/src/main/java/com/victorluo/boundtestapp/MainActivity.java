@@ -55,6 +55,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 popup.show();
             }
         });
+
+        findViewById(R.id.test_fetch).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(v.getContext(), ConfirmLocationActivity.class));
+            }
+        });
     }
 
     @Override

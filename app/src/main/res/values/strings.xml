@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Bound Test App</string>
-    <string name="title_activity_select_location">Map</string>
+	<string name="app_name">Bound Test App</string>
+	<string name="title_activity_select_location">Map</string>
 </resources>
