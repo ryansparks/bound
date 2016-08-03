@@ -11,8 +11,8 @@
     android:background="#7AC25A">
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
         android:id="@+id/boundlogo"
         android:background="@drawable/boundlogo"
         android:layout_alignParentTop="true"
@@ -39,5 +39,46 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:textSize="18dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/boundlogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/offWhite">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/meetuplist">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="You have no current meetups"
+                android:id="@+id/noMeetups"
+                android:textSize="30dp"
+                android:textColor="#CCCCCC"
+                android:textAlignment="center"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_alignEnd="@+id/yourmeetups" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/loading"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
