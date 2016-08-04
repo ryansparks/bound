@@ -6,14 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.firebase.client.Firebase;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class StartActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button createAccount, signin;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+
+        mAuth = FirebaseAuth.getInstance();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if(user != null) {
+            Intent i = new Intent(StartActivity.this, MainActivity.class);
+            startActivity(i);
+        }
 
         // ASSIGN LAYOUT VALUES TO BUTTONS AND TEXT VIEWS
         createAccount = (Button) findViewById(R.id.createaccount);

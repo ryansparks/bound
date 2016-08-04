@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Your Friends"
+        android:id="@+id/yourfriends" />
+    <item android:title="Settings"
+        android:id="@+id/settings"/>
+    <item android:title="About Bound"
+        android:id="@+id/about" />
+    <item android:title="Log Out"
+        android:id="@+id/logout"/>
+
+</menu>

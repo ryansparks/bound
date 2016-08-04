@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class CreateaccountActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,10 +27,8 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
     AutoCompleteTextView firstname, lastname, email, password;
     Button createAccount;
 
-    String fnstring, lnstring, estring, pstring;
-
     private FirebaseAuth mAuth;
-    private Firebase fb;
+    private DatabaseReference mDatabase;
 
     private FirebaseAuth.AuthStateListener mAuthListener;
 
@@ -39,8 +39,8 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
         Firebase.setAndroidContext(this);
 
         // CONFIGURE FIREBASE
-        fb = new Firebase(DB_URL);
         mAuth = FirebaseAuth.getInstance();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
 
         // INTIALIZE BUTTONS AND AUTOCOMPLETETEXTVIEWS
         firstname = (AutoCompleteTextView) findViewById(R.id.firstname);
@@ -83,7 +83,6 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
     @Override
     public void onClick(View view) {
         Log.d("Test", "button clicked");
-        finish();
 
         switch(view.getId())
         {
@@ -95,6 +94,8 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
                                 Log.d("FIREBASE", "createUserWithEmail:onComplete:" + task.isSuccessful());
 
                                 if(task.isSuccessful()) {
+                                    FirebaseUser user = mAuth.getCurrentUser();
+                                    writeNewUser(firstname.getText().toString(), lastname.getText().toString(), email.getText().toString(), user.getUid());
                                     Intent i = new Intent(CreateaccountActivity.this, MainActivity.class);
                                     startActivity(i);
                                 }
@@ -108,5 +109,10 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
 
                 break;
         }
+    }
+
+    private void writeNewUser(String firstname, String lastname, String email, String uid) {
+        User user = new User(firstname, lastname, email, uid);
+        mDatabase.child("userdata").child(uid).setValue(user);
     }
 }
