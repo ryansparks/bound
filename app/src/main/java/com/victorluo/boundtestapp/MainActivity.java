@@ -91,14 +91,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-<<<<<<< HEAD
+
         findViewById(R.id.test_fetch).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(v.getContext(), ConfirmLocationActivity.class));
             }
         });
-=======
+
         // SHOW ALL MEETUPS THE USER HAS
         noMeetups.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 meetupList.addView(button);
             }
         }
->>>>>>> master
+
     }
 
     @Override
