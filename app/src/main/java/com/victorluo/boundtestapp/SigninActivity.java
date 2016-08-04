@@ -68,18 +68,20 @@ public class SigninActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mAuth.signInWithEmailAndPassword(emailfield.getText().toString(), passwordfield.getText().toString())
-                        .addOnCompleteListener(SigninActivity.this, new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                Log.d("FIREBASE", "signInWithEmail:onComplete:" + task.isSuccessful());
+                if (!emailfield.getText().toString().matches("") && !passwordfield.getText().toString().matches("")) {
+                    mAuth.signInWithEmailAndPassword(emailfield.getText().toString(), passwordfield.getText().toString())
+                            .addOnCompleteListener(SigninActivity.this, new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    Log.d("FIREBASE", "signInWithEmail:onComplete:" + task.isSuccessful());
 
-                                if(!task.isSuccessful()) {
-                                    Log.w("FIREBASE", "signInWithEmail:failed", task.getException());
-                                    Toast.makeText(SigninActivity.this, "Authentication Error", Toast.LENGTH_SHORT).show();
+                                    if (!task.isSuccessful()) {
+                                        Log.w("FIREBASE", "signInWithEmail:failed", task.getException());
+                                        Toast.makeText(SigninActivity.this, "Authentication Error", Toast.LENGTH_SHORT).show();
+                                    }
                                 }
-                            }
-                        });
+                            });
+                }
             }
         });
 

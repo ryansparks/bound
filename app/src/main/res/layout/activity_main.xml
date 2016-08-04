@@ -32,6 +32,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Test location fetch"
+        android:id="@+id/test_fetch"
+        android:background="#4ac25a"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/schedule"
+        android:layout_alignParentEnd="true"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Schedule a meetup"
         android:id="@+id/schedule"
         android:background="#4ac25a"
