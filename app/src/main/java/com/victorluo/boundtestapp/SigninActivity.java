@@ -68,7 +68,6 @@ public class SigninActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(SigninActivity.this, "tst", Toast.LENGTH_SHORT).show();
                 mAuth.signInWithEmailAndPassword(emailfield.getText().toString(), passwordfield.getText().toString())
                         .addOnCompleteListener(SigninActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -95,7 +94,6 @@ public class SigninActivity extends AppCompatActivity {
                     startActivity(i);
                     finish();
                 } else {
-                    Toast.makeText(SigninActivity.this, "Signed out", Toast.LENGTH_SHORT).show();
                 }
             }
         };
