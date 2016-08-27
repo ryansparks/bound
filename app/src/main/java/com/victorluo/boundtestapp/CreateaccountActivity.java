@@ -87,26 +87,27 @@ public class CreateaccountActivity extends AppCompatActivity implements View.OnC
         switch(view.getId())
         {
             case R.id.createaccountbutton:
-                mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString())
-                        .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                Log.d("FIREBASE", "createUserWithEmail:onComplete:" + task.isSuccessful());
+                if(!email.getText().toString().matches("") && !password.getText().toString().matches("") && !firstname.getText().toString().matches("") && !lastname.getText().toString().matches("")) {
+                    mAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString())
+                            .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    Log.d("FIREBASE", "createUserWithEmail:onComplete:" + task.isSuccessful());
 
-                                if(task.isSuccessful()) {
-                                    FirebaseUser user = mAuth.getCurrentUser();
-                                    writeNewUser(firstname.getText().toString(), lastname.getText().toString(), email.getText().toString(), user.getUid());
-                                    Intent i = new Intent(CreateaccountActivity.this, MainActivity.class);
-                                    startActivity(i);
+                                    if (task.isSuccessful()) {
+                                        FirebaseUser user = mAuth.getCurrentUser();
+                                        writeNewUser(firstname.getText().toString(), lastname.getText().toString(), email.getText().toString(), user.getUid());
+                                        Intent i = new Intent(CreateaccountActivity.this, MainActivity.class);
+                                        startActivity(i);
+                                    }
+
+                                    //if sign in fails...
+                                    if (!task.isSuccessful()) {
+                                        Toast.makeText(CreateaccountActivity.this, "Authorization failed", Toast.LENGTH_SHORT).show();
+                                    }
                                 }
-
-                                //if sign in fails...
-                                if(!task.isSuccessful()) {
-                                    Toast.makeText(CreateaccountActivity.this, "Authorization failed", Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-
+                            });
+                }
                 break;
         }
     }
